@@ -1,0 +1,23 @@
+.container {
+    margin-top: 30px;
+}
+.bottom-solid {
+    padding-bottom: 10px;
+    border-bottom: solid #e7e7e7;
+}
+.content-summary {
+    height: 200px;
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+}
+.highlight {
+     color: #ff0000;
+}
+.top20 {
+    margin-top: 20px;
+}
+.text-xs {
+    width: 40px !important;
+    padding: 1px 5px !important;
+    height: 22px !important;
+}

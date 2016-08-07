@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+    <definition name="knowledge.knowledgeType.list" extends="template.classic">
+        <put-attribute name="title" value="List Knowledge Type" />
+        <put-attribute name="body" value="/WEB-INF/jsp/knowledge/listKnowledgeType.jsp" />
+    </definition>
+    <definition name="knowledge.knowledgeType.create" extends="template.classic">
+        <put-attribute name="title" value="Add Knowledge Type" />
+        <put-attribute name="body" value="/WEB-INF/jsp/knowledge/createKnowledgeType.jsp" />
+    </definition>
+    <definition name="knowledge.knowledgeType.edit" extends="template.classic">
+        <put-attribute name="title" value="Edit KnowledgeType" />
+        <put-attribute name="body" value="/WEB-INF/jsp/knowledge/editKnowledgeType.jsp" />
+    </definition>
+
+    <definition name="knowledge.knowledge.list" extends="template.classic">
+        <put-attribute name="title" value="List Knowledge" />
+        <put-attribute name="body" value="/WEB-INF/jsp/knowledge/listKnowledge.jsp" />
+    </definition>
+    <definition name="knowledge.knowledge.view" extends="template.classic">
+        <put-attribute name="title" value="View Knowledge" />
+        <put-attribute name="body" value="/WEB-INF/jsp/knowledge/viewKnowledge.jsp" />
+    </definition>
+    <definition name="knowledge.knowledge.create" extends="template.classic">
+        <put-attribute name="title" value="Add Knowledge" />
+        <put-attribute name="body" value="/WEB-INF/jsp/knowledge/createKnowledge.jsp" />
+    </definition>
+    <definition name="knowledge.knowledge.edit" extends="template.classic">
+        <put-attribute name="title" value="Edit Knowledge" />
+        <put-attribute name="body" value="/WEB-INF/jsp/knowledge/editKnowledge.jsp" />
+    </definition>
+
+</tiles-definitions>
